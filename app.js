@@ -28,8 +28,9 @@ const CONFIG = {
   // Legge la chiave dalla variabile globale iniettata a runtime.
   // Non scrivere mai la chiave direttamente in questo file.
   get apiKey() {
-    return window.__STARK_KEY || "";
-  },
+  return window.__STARK_KEY || "LA_TUA_CHIAVE_GEMINI";
+},
+  
 
   // Modello Gemini più recente e performante disponibile.
   model: "gemini-2.0-flash",
