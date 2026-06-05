@@ -27,9 +27,10 @@
 const CONFIG = {
   // Legge la chiave dalla variabile globale iniettata a runtime.
   // Non scrivere mai la chiave direttamente in questo file.
-  get apiKey() {
-  return window.__STARK_KEY || "AIzaSyAQ.Ab8RN6JzsV4aBLRICpV2esyuLUeOHIVFvzP8AtGvmOq2Bw8P7w";
-},
+    get apiKey() {
+    return "AQ.Ab8RN6JzsV4aBLRICpV2esyuLUeOHIVFvzP8AtGvmOq2Bw8P7";
+  },
+
   
 
   // Modello Gemini più recente e performante disponibile.
