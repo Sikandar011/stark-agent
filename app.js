@@ -34,7 +34,7 @@ const CONFIG = {
   },
 
   // Modello Gemini più recente e performante disponibile.
-  model: "gemini-2.0-flash",
+  model: "gemini-2.5-flash",
 
   // Endpoint REST ufficiale delle API Google Gemini
     // Endpoint REST ufficiale delle API Google Gemini
