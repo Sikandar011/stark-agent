@@ -1,4 +1,4 @@
-const CACHE_NAME = 'stark-v1';
+const CACHE_NAME = "stark-cache-v2";
 const ASSETS = [
   './',
   './index.html',
