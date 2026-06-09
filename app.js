@@ -27,8 +27,8 @@
 const CONFIG = {
   // Legge la chiave dalla variabile globale iniettata a runtime.
   // Non scrivere mai la chiave direttamente in questo file.
-    get apiKey() {
-    return "AIzaSy_AQ.Ab8RN6LmOjoCEt8GA0iZ3H3P73TcV4mFDZQHAy0R_E1TYxvyuw";
+      get apiKey() {
+    return process.env.NEXT_PUBLIC_GEMINI_KEY || window.__STARK_KEY || "";
   },
 
   
