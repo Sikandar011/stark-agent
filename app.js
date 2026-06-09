@@ -37,8 +37,9 @@ const CONFIG = {
   model: "gemini-2.0-flash",
 
   // Endpoint REST ufficiale delle API Google Gemini
+    // Endpoint REST ufficiale delle API Google Gemini
   get endpoint() {
-    return `https://generativelanguage.googleapis.com/v1beta/models/${this.model}:generateContent?key=${this.apiKey}`;
+    return `https://generativelanguage.googleapis.com/v1/models/${this.model}:generateContent?key=${this.apiKey}`;
   },
 
   // System prompt: definisce la personalità di Stark.
